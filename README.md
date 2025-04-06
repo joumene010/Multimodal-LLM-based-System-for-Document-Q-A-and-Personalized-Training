@@ -1,64 +1,57 @@
-🧠 Multi-Modal Retrieval-Augmented Generation (RAG) with LangChain
-This project showcases a Multi-Modal Retrieval-Augmented Generation (RAG) pipeline built with LangChain, enabling intelligent interaction with content-rich PDFs. It processes text, tables, and images, summarizes them using powerful AI models, and answers queries via a multi-modal interface.
+# 🧠 Multi-Modal Retrieval-Augmented Generation (RAG) with LangChain
 
-💡 Skills Demonstrated
-Document Parsing & Preprocessing
-Extracting structured content from PDFs (text, tables, images).
+This project showcases a **Multi-Modal Retrieval-Augmented Generation (RAG)** pipeline built with [LangChain](https://python.langchain.com/), enabling intelligent interaction with content-rich PDFs. It processes **text, tables, and images**, summarizes them using powerful AI models, and answers queries via a multi-modal interface.
 
-Multi-Modal AI Integration
-Combining NLP and image models (OpenAI, Hugging Face, Groq) to handle different data types.
+---
 
-Prompt Engineering
-Designing task-specific prompts for summarization and question answering.
+## 💡 Skills Demonstrated
 
-LangChain Pipelines
-Building and chaining custom LLM pipelines using LangChain's modular interface.
+- **Document Parsing & Preprocessing**  
+  Extracting structured content from PDFs (text, tables, images).
 
-Vector Database Management
-Indexing and linking summarized data with vector stores (Chroma, InMemoryStore).
+- **Multi-Modal AI Integration**  
+  Combining NLP and image models (OpenAI, Hugging Face, Groq) to handle different data types.
 
-Retrieval-Augmented Generation (RAG)
-Building systems that retrieve relevant context to augment LLM-based responses.
+- **Prompt Engineering**  
+  Designing task-specific prompts for summarization and question answering.
 
-Environment Configuration
-Managing API keys and runtime settings securely using environment variables.
+- **LangChain Pipelines**  
+  Building and chaining custom LLM pipelines using LangChain's modular interface.
 
-Modular Project Structuring
-Cleanly separating concerns for extraction, summarization, storage, and retrieval.
+- **Vector Database Management**  
+  Indexing and linking summarized data with vector stores (`Chroma`, `InMemoryStore`).
 
-🚀 Features
-PDF Parsing: Extracts text, tables, and images using the unstructured library.
+- **Retrieval-Augmented Generation (RAG)**  
+  Building systems that retrieve relevant context to augment LLM-based responses.
 
-Summarization: Summarizes each modality with models from Groq, Hugging Face, or OpenAI.
+- **Environment Configuration**  
+  Managing API keys and runtime settings securely using environment variables.
 
-Vectorstore: Stores summaries and links them to original sources.
+- **Modular Project Structuring**  
+  Cleanly separating concerns for extraction, summarization, storage, and retrieval.
 
-Multi-Modal Retrieval: Retrieves relevant content across modalities to answer user queries.
+---
 
-Custom Models: Plug-and-play support for different LLMs or vision-language models.
+## 🚀 Features
 
-📦 Installation Overview
-Requires Python 3.8+
+- **PDF Parsing**: Extracts text, tables, and images using the `unstructured` library.  
+- **Summarization**: Summarizes each modality with models from Groq, Hugging Face, or OpenAI.  
+- **Vectorstore**: Stores summaries and links them to original sources.  
+- **Multi-Modal Retrieval**: Retrieves relevant content across modalities to answer user queries.  
+- **Custom Models**: Plug-and-play support for different LLMs or vision-language models.
 
-System dependencies: poppler, tesseract, libmagic
+---
 
-Python libraries: LangChain, Unstructured, ChromaDB, Hugging Face Transformers, etc.
+## 📦 Installation Overview
 
-🗂️ Project Structure
-bash
-Copy
-Edit
-├── extraction/        # PDF parsing and image extraction
-├── summarization/     # Chains for summarizing text, tables, and images
-├── storage/           # Vectorstore + document linking
-├── rag/               # Retrieval and question answering logic
-└── main.py            # Example end-to-end pipeline
-📚 References
-LangChain Documentation
+- Requires Python 3.8+  
+- System dependencies: `poppler`, `tesseract`, `libmagic`  
+- Python libraries: LangChain, Unstructured, ChromaDB, Hugging Face Transformers, etc.
 
-Unstructured.io
+---
+## 📚 References
 
-Hugging Face Transformers
-
-LangChain Multi-Modal RAG Example
-
+- [LangChain Documentation](https://python.langchain.com/)
+- [Unstructured Documentation](https://docs.unstructured.io/)
+- [Hugging Face Transformers](https://huggingface.co/docs/transformers/)
+- [LangChain Multi-Modal RAG Example](https://github.com/langchain-ai/langchain/blob/master/cookbook
